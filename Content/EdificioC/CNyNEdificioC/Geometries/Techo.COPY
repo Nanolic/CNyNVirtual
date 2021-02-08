@@ -1,0 +1,93 @@
+Begin Object Class=/Script/Engine.Material Name="Techo"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_ao_2k.tiles_0013_ao_2k"'
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=400
+      MaterialExpressionGuid=55C56C0E4AA7834AB930C89C8107728B
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_normal_2k.tiles_0013_normal_2k"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=8977C3004A91A26D4EC74887ABF5CB17
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_4"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_roughness_2k.tiles_0013_roughness_2k"'
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=91BC87244386877E64F6E4861F98AFCC
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_6"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_displacement_2k.tiles_0013_displacement_2k"'
+      MaterialExpressionEditorX=-144
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=4115AAF54689F18B7867AA8DFBE2D42F
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_metallic_2k.tiles_0013_metallic_2k"'
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=294529CB4F08AB101115B9B1A7B9F19D
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/texturasfaltantes/tiles_0013_base_color_2k.tiles_0013_base_color_2k"'
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=1AE734C845D47E430F66A1AC9160A661
+      Material=Material'"Techo"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Specular=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EditorX=128
+   EditorY=-80
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(3)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_4"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"'
+   Expressions(5)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_6"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=CCD08F5A4BE124A0C39B5DBAED88F02A
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/texturasfaltantes/tiles_0013_base_color_2k.tiles_0013_base_color_2k"',Texture2D'"/Game/texturasfaltantes/tiles_0013_metallic_2k.tiles_0013_metallic_2k"',Texture2D'"/Game/texturasfaltantes/tiles_0013_normal_2k.tiles_0013_normal_2k"',Texture2D'"/Game/texturasfaltantes/tiles_0013_roughness_2k.tiles_0013_roughness_2k"',Texture2D'"/Game/texturasfaltantes/tiles_0013_ao_2k.tiles_0013_ao_2k"',Texture2D'"/Game/texturasfaltantes/tiles_0013_displacement_2k.tiles_0013_displacement_2k"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=564F965646BBE206F467D4B0FFA30E51
+   ReferencedTextureGuids(1)=7D095DAD4E9D43B5CFD15D8057657202
+   ReferencedTextureGuids(2)=DE362B5E4745C0EDB173CE89E8C0A0E0
+   ReferencedTextureGuids(3)=7C8CE4FD4A8BDD95AD7CD2A58442E591
+   ReferencedTextureGuids(4)=813EBACB4E14227F10C179B57F90EEF7
+   ReferencedTextureGuids(5)=10BBB68F4DDB9B8874C0FCA9E5DF3AB0
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_ao_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_ao_2k.tiles_0013_ao_2k)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_base_color_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_base_color_2k.tiles_0013_base_color_2k)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_displacement_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_displacement_2k.tiles_0013_displacement_2k)
+   TextureStreamingData(3)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_metallic_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_metallic_2k.tiles_0013_metallic_2k)
+   TextureStreamingData(4)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_normal_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_normal_2k.tiles_0013_normal_2k)
+   TextureStreamingData(5)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="tiles_0013_roughness_2k",TextureReference=/Game/texturasfaltantes/tiles_0013_roughness_2k.tiles_0013_roughness_2k)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=27AFB42D454B8DE0D0BB36AE14A5EBF3
+End Object
